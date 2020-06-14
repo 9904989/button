@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="action_btn.css">
+    <title>Persistent Action Button</title>
+</head>
+<body>
+    <div class="action" onclick="actionToggle();">
+        <span>+</span>
+        <ul>
+            <li>Bottle</li>
+            <li>Poopy</li>
+            <li>Wet</li>
+            <li>Comment</li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function actionToggle() {
+            var action = document.querySelector('.action');
+            action.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
