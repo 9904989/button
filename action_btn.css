@@ -8,6 +8,7 @@
 
 body {
     min-height: 100vh;
+    background: linear-gradient(#7d6cfc, #c635ea);
 }
 
 .action {
